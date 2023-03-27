@@ -35,21 +35,22 @@ class _MyHomePageState extends State<MyHomePage> {
           bottom: TabBar(
             indicator: BoxDecoration(
                 borderRadius: BorderRadius.circular(9), // Creates border
-                color: Colors.greenAccent),
+                color: Color(0xff570052)),
             tabs: [
-              Tab(icon: Icon(Icons.flight)),
-              Tab(icon: Icon(Icons.directions_transit)),
+              Tab(icon: Icon(Icons.add_ic_call)),
+              Tab(icon: Icon(Icons.add_a_photo)),
               Tab(icon: Icon(Icons.directions_car)),
-              Tab(icon: Icon(Icons.directions_car)),
+              Tab(icon: Icon(Icons.add_chart)),
             ],
           ),
-          title: Text('Tabs Demo'),
+          title: Text('Tabs Bianka Garcia '),
         ),
         body: TabBarView(
           children: [
-            Icon(Icons.flight, size: 350),
-            Icon(Icons.directions_transit, size: 350),
+            Icon(Icons.add_ic_call, size: 350),
+            Icon(Icons.add_a_photo, size: 350),
             Icon(Icons.directions_car, size: 350),
+            Icon(Icons.add_chart, size: 350),
           ],
         ),
       ),
